@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
-import codecs, re, csv
+import re, csv
 
 # источник данных для выборки по аренде квартир
 url = "https://www.avito.ru/magnitogorsk/kvartiry"
